@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <title></title>
+    <meta content="">
+    <style>
+
+    body{
+margin:0;
+padding: 0;
+height: 100%;
+width: 100%;
+
+    }
+
+
+    div{
+            border: 1px solid black;
+    }
+    .con{
+
+
+      min-height:100%;
+      min width:100%;
+    }
+
+    .numeric {
+
+      position: absolute; /* Reposition logo from the natural layout */
+      float: right;
+
+      width: 33%;
+      height: 33%;
+      z-index: 2;
+
+
+    }
+
+
+
+    </style>
+  </head>
+  <body>
+<div class="con">
+<div class="numeric">1</div>
+</div>
+  </body>
+</html>

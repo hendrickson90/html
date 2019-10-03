@@ -1,0 +1,120 @@
+<html>
+  <head>
+    <title></title>
+    <meta content="">
+  <style>
+
+  .outer-div {
+    width: 100%; 
+    height: 100%
+    justify-content: center;
+    vertical-align: middle;
+    opacity: 1;
+    color: lightblue;
+    
+   
+    
+  }
+
+  .box{
+
+      width: 760px;
+      height: 250px;
+  
+
+    justify-content: center;
+
+
+    position: absolute;
+  top: 50%;
+  left: 50%;
+
+    margin: 0 auto;
+    margin-left: -380px;
+    margin-top: -175px; 
+
+    font-family: Cambria, Georgia, serif;
+
+
+    opacity: 1;
+
+    -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 5s; /* Firefox < 16 */
+        -ms-animation: fadein 5s; /* Internet Explorer */
+         -o-animation: fadein 5s; /* Opera < 12.1 */
+            animation: fadein 5s;
+  }
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  color: black;
+  text-decoration: none;
+}
+
+img{
+
+  width: 250px;
+  height: 250px;
+}
+
+
+  </style>
+  </head>
+  <body>
+<div class="outer-div">
+<div class="box">
+
+
+<a href="https://netflix.com"><img id="img" src="src/netflix.png" title="Netflix" alt="Netflix"></a>
+<a href="https://hulu.com"><img src="src/hulu.jpg" title="Hulu" alt="Hulu"></a> 
+<a href="https://www.primevideo.com/"><img src="src/amazon.png" title="Amazon" alt="Amazon"></a>
+
+
+
+</div>
+</div>
+
+
+  </body>
+</html>

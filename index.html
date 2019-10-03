@@ -1,0 +1,129 @@
+<html>
+  <head>
+    <title></title>
+    <meta content="">
+    <style>
+
+
+
+
+.center {
+
+height: 200px;
+width: 400px;
+
+border: 1px solid black;
+
+position: fixed;
+top: 50%;
+left: 50%;
+margin-top: -100px;
+margin-left: -200px;
+
+text-align: justify;
+text-justify: auto;
+verticl-align
+
+
+
+
+}
+.center p{
+
+margin:0;
+position: middle;
+
+border: 1px solid green;
+text-align: center;
+vertical-align: middle;
+line-height:100%;
+
+
+
+
+}
+
+.container{
+height:100%;
+width:100%;
+display:flex;
+position: fixed;
+align-items: center;
+justify-content: center;
+
+
+
+}
+
+.text{
+
+font-size: 36em;
+opacity: 1;
+
+    -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 5s; /* Firefox < 16 */
+        -ms-animation: fadein 5s; /* Internet Explorer */
+         -o-animation: fadein 5s; /* Opera < 12.1 */
+            animation: fadein 5s;
+
+
+
+            -webkit-animation: pulsate 6s ease-out;
+            -webkit-animation-iteration-count: infinite;
+            opacity: 0.20;
+
+}
+
+
+.pulsate {
+    -webkit-animation: pulsate 3s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    opacity: 0.15;
+}
+@-webkit-keyframes pulsate {
+    0% {
+        opacity: 0.03;
+    }
+    50% {
+        opacity: .15;
+    }
+    100% {
+        opacity: 0.03;
+    }
+}
+
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: .15; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: .15; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: .15; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: .15; }
+}
+
+    </style>
+  </head>
+  <body>
+
+<div class="container">
+<div class="text">&#120590</div>
+</div>
+
+  </body>
+</html>
